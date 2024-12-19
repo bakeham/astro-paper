@@ -28,14 +28,14 @@ AstroPaper now leverages the power and capabilities of Astro v4. However, it’s
 
 The `postSlug` in the blog content schema is no longer available in AstroPaper v4. Initially Astro doesn't have a `slug` mechanism and thus we have to figure it out on our own. Since Astro v3, it supports content collection and slug features. Now, we believe it's time to adopt Astro's out-of-the-box `slug` feature.
 
-**_file: src/content/blog/astro-paper-4.md_**
+**_file: src/content/blog/astro-paper-4 copy.md_**
 
 ```bash
 ---
 author: Sat Naing
 pubDatetime: 2024-01-01T04:35:33.428Z
 title: AstroPaper 4.0
-slug: "astro-paper-v4" # if slug is not specified, it will be 'astro-paper-4' (file name).
+slug: "astro-paper-v4" # if slug is not specified, it will be 'astro-paper-4 copy' (file name).
 # slug: "" ❌ cannot be an empty string
 ---
 ```
